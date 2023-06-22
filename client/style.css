@@ -1,0 +1,90 @@
+
+body {
+    background-color: #a09797;
+    /* display: flex;
+     justify-content: center;
+    align-items: center;  */
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+.inputWord {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input {
+    color: white;
+    border: 1px solid #656464;
+    background-color: #656464;
+    height: 60px;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-right: 0;
+    transition: all .5s ease;
+    font-size: 25px;
+}
+.input:focus {
+    outline: none;
+    border: 5px solid rgb(160, 82, 86);
+    border-right: 0;
+}
+.btn {
+    height: 60px;
+    border-radius: 0px 10px 10px 0px;
+    border: 5px solid rgb(160, 82, 86);
+    border-left: 0px;
+    background-color: rgb(160, 82, 86);
+    color: white;
+    letter-spacing: 1px;
+    transition: all 0.7s ease;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.btn:focus {
+    outline: none;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.element {
+    width: fit-content;
+    height: max-content;
+    color: #ffff;
+    padding: 10px;
+    background-color: #656464;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gainsboro;
+    transition: all .5s ease;
+    font-size: 30px;
+}
+.element:hover{
+    border: 5px solid rgb(160, 82, 86);
+}
+
+
+.element:hover{
+    color: white;
+    color: crimson;
+    border: 3px solid rgba(220, 20, 60, 0.89);
+}
